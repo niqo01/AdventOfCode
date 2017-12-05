@@ -1,7 +1,9 @@
+package d4
+
 import java.io.File
 
 fun main(args: Array<String>) {
-    val input = File(Unit.javaClass.getResource("/input.txt").toURI())
+    val input = File(Unit.javaClass.getResource("/input_2017_day4.txt").toURI())
     part1(input)
     part2(input)
 }
